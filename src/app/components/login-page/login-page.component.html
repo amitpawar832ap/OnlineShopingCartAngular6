@@ -1,0 +1,24 @@
+<div style = "margin-top: 100px">
+  <div ALIGN="center"><b>Login Page</b></div>
+<table  ALIGN="center" height="57" style = "margin-top: 50px">
+  <tr>
+  <td>User Name:</td>
+  <td><input type="text" ng-model="username"></td>
+  </tr>
+  <tr>
+  <td>Password:</td>
+  <td><input type="text" ng-model="password"></td>
+  </tr>
+  <tr>
+  <td>
+  <input type="submit" value="Login" ng-click = "loginPage(username,password)">
+  </td>
+  </tr>
+  <tr>
+  <TD ><font size="4">New User?</font></TD>
+  <td>
+  <a routerLink ="/register"><font size="4">Register</font></a>
+  </td>
+  </tr>
+  </table>
+</div>
